@@ -1,0 +1,140 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: 'Quicksand',sans-serif;
+}
+.logo {
+    height: 50px;
+    text-align: center;
+}
+.nav-list {
+    
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    gap: .15rem;
+    list-style-type:none;
+    padding: .75em;
+    margin-top: -2%;
+    #icon {
+        width:40%;
+    }   
+}
+.nav-list li {
+    text-align: left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 1.5rem;
+}
+.nav-list a {
+    color: #ffff;
+    text-decoration: none;}
+.hrh {
+    color: white;
+    text-decoration: dotted;
+}
+footer{
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #002157;
+    padding: 3%;
+}
+.footlinks {
+    font-size: .75rem;
+    color: white;
+    text-align: center;
+}
+.footlinks a {
+    color: white;
+    margin-left: 0px;
+    font-family:serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 10px;
+} 
+.footlinks a:hover {
+    color:gray;
+}
+.ctag {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+/*Main Content*/
+.subject-banner {     
+    background-color: #002157;
+    border-radius: 15px;
+    padding: 2.5%;
+    margin:0% 1% 1% 1%;
+
+}   div h1 {
+    font-size: 1.15rem;
+    color: #FFFF;
+    margin-bottom: 3%;
+    font-family:'Quicksand', sans-serif;
+    font-stretch: extra-expanded;
+}
+    div h4 {
+        font-weight: normal;
+        font-family:'Quicksand', serif;
+        color: #002157;
+        margin: 1%;
+    }
+.subject-description {
+    font-size: 1.15rem;
+    text-align: justify;
+    color: #FFFF
+}
+.topics {
+    position: relative;
+    background-color: rgb(128, 128, 128, 0.2);
+    border-radius: 15px;
+    margin:1% 1% 1% 1%;
+    padding:1em
+}
+.topic {
+    background-color: #FFFF;
+    border-radius: 8px;
+    padding: .5%;
+    margin:1% .5% 0% .5% ;
+    box-shadow: 0px 0px .1rem #808080af;
+    list-style-type:none;
+}
+.icon {
+    width:30%;
+    height: 30%;;
+}
+#questions-tab {
+    display: none;
+}
+/* Style for active tab */
+.active-tab {
+    background-color: #0044A0;
+    color: #FFF;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+button {
+    width: 30%;
+    align-items: center;
+    padding: 1rem;
+    background-color: #002157;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #0044A0;
+}
+.notes-content {
+    color: black;
+
+}

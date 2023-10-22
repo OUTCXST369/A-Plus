@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>CheatCode</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" href="icons/new logo.png">
+</head>
+<body>
+    <header>
+        <div ><img src="icons/new logo.png" width="10%"></div>
+        
+    </header>
+    <main class="container">
+        <div class="heading">
+            <h1>Fill in the form to register</h1>
+        </div>
+        <form class="login-form" action="index.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label  for="Username">Username</label><br>
+                <input type="text" id="username" placeholder="OUTCXST" minlength="4" maxlength="12"><br> 
+            </div>
+            <div class="form-group">
+                <label  for="Username">First Name</label><br>
+                <input type="text" id="1stname" placeholder="November" required><br>
+            </div>
+            <div class="form-group">
+                <label  for="Username">Surname</label><br>
+            <input type="text" id="lastname" placeholder="Hiwa" required><br>
+            
+            </div>
+            <div class="form-group">
+                <label  for="email">Email</label><br>
+            <input type="email" id="email" placeholder="example@cheatcode.com" required><br>
+            </div>
+            <div class="form-group">
+                <label  for="phone">Mobile Number</label><br>
+                <input type="tel" id="number" placeholder="0880 126 254" minlength="10" maxlength="10"><br>
+            </div>
+            <div class="form-group">
+                <label  for="bday">Birthday</label><br>
+                <input type="date" id="bday" placeholder="20/11/1997" required><br>
+            </div>
+            <div class="label">
+                <label  for="password">Password</label><br>
+                <input type="password" id="password" placeholder="*******" required><br>
+            </div>
+            <div class="form-group">
+                <label  for="password">Confirm Password</label><br>
+                <input type="password" id="password" placeholder="******" required><br>
+            </div>
+            <div class="form-group">
+                <label  for="payment">Select a Payment Method</label><br>
+            <select id="payment">
+                <option>PayPal</option>
+                <option>Airtel Money</option>
+                <option>Mpamba</option>
+            </select><br>    
+            </div>
+            <div class="form-group">
+                <label>By clicking submit you agree to the terms and conditions of our policies</label>
+            </div>
+            <div class="form-group">
+                <input type="reset" id="reset">
+                <input type="submit" id="submit">
+            </div> 
+        </form>
+    </main>
+    <footer>
+        <nav class="navbar_bottom">
+            <lu class="footlinks">
+                <a href="">Frequently Asked Questions</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Frequently Asked Questions</a>
+            </lu>
+        </nav>
+            
+        <hr>
+        <p class="ctag"> &#169 2023 Phoenix Tech Dynamics</p>
+    </footer>
+</body>
+    
+    
+</html>

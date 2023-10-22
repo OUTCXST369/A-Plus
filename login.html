@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login and Registration</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div ><img id="logo" src="icons/new logo.png"></div>
+        <div class="tabs">
+        <button id="loginTab" class="active-tab">Login</button>
+        <button id="registerTab">Register</button>
+    </div>
+        <form id="login-form" class="form" action="index.html">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        
+        <form id="register-form" class="form">
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" id="username" placeholder="OUTCXST" minlength="4" maxlength="12"><br> 
+            </div>
+            <div class="form-group">
+                <label for="Username">First Name</label>
+                <input type="text" id="1stname" placeholder="Patience" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Username">Surname</label>
+            <input type="text" id="lastname" placeholder="Hiwa" required><br>
+            
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@aplus.com" required><br>
+            </div>
+            <div class="form-group">
+                <label for="phone">Mobile Number</label>
+                <input type="tel" id="number" placeholder="0880 126 254" minlength="10" maxlength="10"><br>
+            </div>
+            <div class="form-group">
+                <label for="bday">Birthday</label>
+                <input type="date" id="bday" placeholder="20/11/1997" required><br>
+            </div>
+            <div class="label">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="*******" required><br>
+            </div>
+            <div class="form-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" placeholder="******" required><br>
+            </div>
+            <div class="form-group">
+                <label for="payment">Select a Payment Method</label>
+                <select id="payment">
+                    <option>PayPal</option>
+                    <option>Airtel Money</option>
+                    <option>Mpamba</option>
+                </select><br>    
+            </div>
+            <div class="checkbox">
+                <label for="checkbox"></label>
+                <input type="checkbox" id="checkbox" name="myCheckbox" value="yes">By clicking on the Register button, you agree to our Terms and Conditions.</input>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">Register</button>
+            </div> 
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

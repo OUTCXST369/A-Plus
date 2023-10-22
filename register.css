@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    margin: auto;
+    max-width: 1024px;
+    background-image: url(images/bg.png);
+   /*background-image:url(images/group.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+main form {
+    margin: 0 auto;
+    color: #002157;
+    font-size: 1em;
+    padding-bottom: 5%;
+}
+main.credentials {
+    font-family: 'Quicksand';
+
+    }
+div h3 {
+    padding-top: 2%;
+    color:white;
+    font-weight:600;
+    font-size: 1.75rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.678);
+}
+.label {
+    margin-top: 2%;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.425);
+}
+input {
+    width: 30%;       
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff4f;
+    color:#002157;
+    text-align: center;
+}
+::placeholder {
+    color:#002157;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+    border: none;
+}
+
+.hrh {
+    color: white;
+    text-decoration: dotted;
+}
+footer{
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #002157;
+    padding: 3%;
+}
+.footlinks {
+    font-size: .75rem;
+    color: white;
+    text-align: center;
+}
+.footlinks a {
+    color: white;
+    margin-left: 0px;
+    font-family:serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 10px;
+} 
+.footlinks a:hover {
+    color:gray;
+}
+.ctag {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}

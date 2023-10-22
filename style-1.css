@@ -1,0 +1,126 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color using the specified color percentages */
+body {
+    background: linear-gradient(60% #FFF, 30% #002157, 10% #808080, #a52a2a);
+    font-family: 'Quicksand', sans-serif; /* Use the specified font family */
+    color: #000; /* Default text color */
+}
+
+/* Header styles */
+header {
+    background-color: #002157;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+/* Navigation bar styles */
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li {
+    font-weight: bold;
+}
+
+.nav-list a {
+    color: #FFF; /* Text color for navigation links */
+    text-decoration: none;
+}
+
+/* Tabs and Boxes styles */
+.all-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.tab-container {
+    flex-basis: 70%; /* Left section */
+}
+
+.right-pane {
+    flex-basis: 30%; /* Right section */
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #FFF;
+    border: 1px solid #808080;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+/* Tutor section styles */
+.tutor-art {
+    /* Add any background art or image styles here */
+}
+
+.tutor {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.tutor p {
+    font-weight: bold;
+}
+
+.tutor-contacts ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tutor-contacts li a {
+    text-decoration: none;
+}
+
+/* Section Three styles */
+.section-three {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.section-three h5 {
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #002157;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-links a {
+    color: #FFF; /* Text color for footer links */
+    text-decoration: none;
+}
+
+.ctag {
+    margin-top: 1rem;
+}

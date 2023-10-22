@@ -1,0 +1,335 @@
+/*
+Section A.
+This part contains customization of the general features which includes all page background, navbar in the header and footer.
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.container {
+    margin:0 auto;
+    max-width: 1080px;
+    background-color: rgb(240, 238, 238);
+    /*background-image:linear-gradient(
+        rgb(0, 96, 168, 50%),
+        rgb(237, 200, 219, 100%)
+    );
+    background-repeat: repeat-y;*/
+}
+@media (min-width: 1080px) {
+    .container {
+        max-width: 1080px;
+        min-width: 40%;
+        /*background-image: linear-gradient(
+            90deg,
+            rgb(0, 96, 168, 50%),
+            rgb(237, 200, 219, 100%)
+        );*/
+    }
+    header {
+        margin-top:1%;
+    }
+    main {
+        .nav-list {
+            gap: .15rem;
+            background-color:#002157;
+            list-style-type:none;   
+        }
+        .nav-list li {
+            text-align: center;
+            flex-grow: 1;
+            flex-shrink: 1;
+            font-size: 2rem;
+        }
+        .nav-list a {
+            color: #ffff;
+            font-family:'Quicksand';
+            text-decoration: none;
+        }
+        .nav-list a:hover{
+            background-color: white;
+            color: rgb(131, 156, 167);
+            padding:.5em 0em .5em 0em;
+        }
+        .profile-button {
+            border:none;
+            padding:.75em;
+            border-radius: 50px;
+            font-family: 'Quicksand';
+            cursor: pointer;
+            #profile {
+                color: #002157;
+            }
+        }
+        
+        .all-sections {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 1%;
+            .tab-container {
+                margin:0% 5% 5% 5% ;
+                border-radius: 20px;
+            }
+            .tabs {
+                padding: 3%;
+                row-gap: 5em;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .box {
+                text-align: center;
+                background-color: #ebebeb;
+                border:none;
+                border-radius: 10px;
+                margin: 0 auto;
+                width: 90%;
+                #icon {
+                    width: 8vh;
+                    height: 8vh;
+                }
+            }
+            .box a {
+                text-align: center;
+                font-size: 1.25rem;
+                text-decoration: none;
+            }
+            .box:hover {
+                background-color: rgb(236, 235, 235);
+                animation-name: grow;
+                animation-duration: 1s;
+                cursor: pointer;
+            }
+            @keyframes grow {
+                50% {transform:scale(120%)}
+            }
+        }
+        
+    }
+}
+.logo {
+    height: 50px;
+    text-align: center;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: .25rem;
+    padding: .25em;
+    background-color:#002157;
+    list-style-type:none;
+    align-items:center; 
+    justify-content: right;
+}
+.nav-list li {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.nav-list a {
+    color: #ffff;
+    font-family:'Quicksand';
+    text-decoration: none;
+}
+.nav-list a:hover{
+    background-color: white;
+    color: rgb(7, 99, 136);
+    padding:.5em 0em .5em 0em;
+}
+.profile-button {
+    border:none;
+    padding:.75em;
+    border-radius: 50px;
+    font-family: 'Quicksand';
+    cursor: pointer;
+    #profile {
+        color: #002157;
+    }
+}
+.hrh {
+    color: white;
+    text-decoration: dotted;
+}
+footer{
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #002157;
+    padding: 3%;
+}
+.footlinks {
+    font-size: .75rem;
+    color: white;
+    text-align: center;
+}
+.footlinks a {
+    color: white;
+    margin-left: 0px;
+    font-family:serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 10px;
+} 
+.footlinks a:hover {
+    color:gray;
+}
+.ctag {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+}
+/*Section B
+This section contains styling of the main index page (home page)*/
+main {
+    .bg {
+        width: 100%;
+        height: auto;
+    }
+    .tab-container {
+        background-color: rgba(128, 128, 128, 0.3);
+        padding: .5rem; 
+        border-radius: 1rem;
+        margin:2% 2% 2% 2% ;
+        border-radius: 20px;   
+    }
+    .tabs {
+        display: flexbox;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box {
+        border:none;
+        border-radius: 10px;
+        margin:2% auto;
+        width: 12vh;
+        #icon {
+            width: 8vh;
+            height:8vh;
+        }
+    }
+    .box a {
+        text-align: center;
+        font-size: .85rem;
+        color: #00679e;
+        text-decoration: none;
+        font-family:'Quicksand';
+        font-stretch: condensed;
+        font-weight: bold;
+    }
+    .box:hover {
+        background-color: rgb(236, 235, 235);
+        animation-name: grow;
+        animation-duration: 1s;
+        cursor: pointer;
+    }
+    .section-two {
+        background-color:#80808041;
+        border-radius: 20px 0px 0px 20px ;
+        padding-right: 4%;
+        font-size: 2rem;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items:center;
+        .tutor-art {
+            width: 15vh;
+            height: 15vh;
+            border-radius: 25vh;
+            background-image: url(images/confused.png);
+            background-size:contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }.tutor div>ul{
+            background-color: #FFFF;
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            list-style-type: none;
+            padding: .2em 0em 0em 0em ;
+            margin-bottom: 2%;
+        }.tutor div>ul:hover {
+            background-color: rgba(128, 128, 128, 0.3);
+    
+        }.tutor div>p {
+            font-family:'Quicksand';
+            font-weight:bold;
+            font-size:1.5rem;
+            color:brown;
+            text-shadow: .5px 1px 2px darkgray;
+            text-align: center;
+            margin:0px
+        }.tutor div>span{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            color:#002157;
+            text-align: center;
+        }
+    }   
+}
+@keyframes grow {
+    50% {transform:scale(120%)}
+}
+.section-three {
+    margin-top: 3%;
+    background-color:#bec0e0b0;
+    padding: 4% 4% 0% 4%;
+    border-radius: 20px 0% 0% 20px ;
+}
+div h5 {
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: light;
+    background-color: #0089D5;
+    text-align: center;
+    border-radius: 4px;
+    font-family:'Quicksand';
+}
+div p {
+    font-size: 1.8rem;
+    color: rgb(14, 13, 13);
+    margin: 1%;
+    text-align: justify;
+    font-family:Microsoft Himalaya;
+}
+/* Section C. This section contains style sheets of the about page
+*/
+.about {
+    text-align: center;
+    color: rgb(7, 99, 136);
+}
+.about_txt {
+    color: black;
+    background-color: rgb(211, 204, 204);
+    text-align: justify;
+    padding: 3%;
+    font-size: 2rem;
+    padding-bottom: 100%;
+}
+/*Tab Styles*/
+.tab_tab{
+    margin: 2%;
+}
+.tab_tab {
+    padding: .5em;
+    display: block;
+}
+.tab_tab button {
+    font-size: 1.75rem;
+    background-color: rgb(7, 99, 136);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: serif;
+}
+.tabcontent li {
+    font-size: 1.75rem;
+    padding: .5em;
+    list-style-type:none;
+} 
+.tabcontent a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}

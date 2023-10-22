@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(60% #FFFF, 30% #002157, 10% #808080);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Quicksand';
+}
+
+.container {
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem; 
+    border-radius: 1rem;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.2);
+    max-width: 30rem; 
+    width: 90%; 
+}
+#logo {
+    width:20%;
+    position:sticky;
+    margin:0% 0% 9%  40% ;
+
+}
+.tabs {
+    display:flex;
+    flex-direction: row;
+    gap: .5em;
+}
+.login-form {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #002157;
+    font-size: 2rem; 
+}
+
+.form-group {
+    margin: 1rem 0; 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #002157;
+}
+
+input {
+    width: 90%; 
+    padding: 1rem;
+    border: 1px solid #808080;
+    border-radius: 0.5rem; 
+    margin-top: 0.5rem; 
+}
+select {
+    padding: 1rem;
+    font-family: 'Quicksand';
+    border-radius: 1rem;
+}
+button {
+    display: block;
+    width: 100%; 
+    padding: 1rem;
+    background-color: #002157;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #0044A0;
+}
+/* Hide the registration form initially */
+#register-form {
+    display: none;
+}
+/* Style for active tab */
+.active-tab {
+    background-color: #0044A0;
+    color: #FFF;
+}
